@@ -2,45 +2,27 @@
 [![Issues][issues-badge]][issues-url]
 [![Gitter][gitter-badge]][gitter-url]
 
-DIAGNOSTICS
+Diagnostics Micro Service
 =================
 
-... project description ...
 
 Overview
 ========
 
-... quick demonstrative examples ...
+The Diagnostics Service is designed to be used as part of the Azure IoT Solution Accelerators. If users have opted in, It allows for collecting user events to allow for understanding how people use and interact with various features. Events (e.g. simulation started, rule created, etc.) are collected by the diagnostics micro service, anonymized, and pushed to the specified endpoint. For deployments via AzureIoTSolutions.com, this endpoint is Microsoft. Users can opt in/out of sharing this anonymous data from within the solution's portal. 
 
-How to use it
-=============
+For your solutions, you can use the diagnostics service to push data to an endpoint of your choosing so you can understand how your customers are using the solutions you create.
 
-... steps to use this project ...
-... deployment notes ...
 
-[Development, debugging, configuration, etc.](DEVELOPMENT.md)
+Contributing
+============
+Refer to our [contribution guidelines](docs/CONTRIBUTING.md)
 
-Configuration
-=============
+License
+=======
+Copyright (c) Microsoft Corporation. All rights reserved.
 
-... how to customize the service, settings, etc. ...
-
-Special notes
-=============
-
-... technical details ...
-
-Edge cases
-==========
-
-... things to take into consideration ...
-... known limitations ...
-
-Other documents
-===============
-
-* [Contributing and Development setup](CONTRIBUTING.md)
-* [Development setup, scripts and tools](DEVELOPMENT.md)
+Licensed under the [MIT](LICENSE) License.
 
 [build-badge]: https://img.shields.io/travis/Azure/diagnostics-dotnet.svg
 [build-url]: https://travis-ci.org/Azure/diagnostics-dotnet
